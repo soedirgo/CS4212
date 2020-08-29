@@ -23,6 +23,8 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
+    implementation 'de.jflex:jflex:1.8.2'
+    implementation 'de.jflex:cup-parent:11b-20160615'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
